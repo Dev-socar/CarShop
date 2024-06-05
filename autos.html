@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarShop - Autos</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.1/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.1/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="bg-gray-900 ">
+    <nav>
+        <div
+            class="max-w-screen flex flex-col items-center gap-5 md:gap-0 md:justify-between md:flex-row md:items-center px-10 py-5 md:py-0 md:pt-5">
+            <a href="index.html" class="text-white text-5xl">CarShop</a>
+            <div class="flex gap-5">
+                <a href="favoritos.html" class="text-white text-xl hover:text-sky-400 transition-all ease-linear">Tus
+                    Favoritos</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="p-10">
+        <h2 class="text-4xl lg:text-5xl text-white">Autos, camionetas y autobuses de la marca <span
+                class="bg-sky-700 rounded-lg py-2 px-4" id="marca"></span></h2>
+        <div class="mt-10 flex flex-col items-center min-h-24" id="contenedor-vehiculos">
+        </div>
+    </main>
+    <footer class="rounded-lg shadow my-4 mx-4 p-4 bg-gray-800">
+        <nav>
+            <div
+                class="max-w-screen flex flex-col items-center gap-5 md:gap-0 md:justify-between md:flex-row md:items-center">
+                <a href="#" class="text-white text-5xl">CarShop</a>
+                <div class="flex gap-5">
+                    <a href="favoritos.html"
+                        class="text-white text-xl hover:text-sky-400 transition-all ease-linear">Tus
+                        Favoritos</a>
+                </div>
+            </div>
+        </nav>
+        <div class="border-t-2 mt-5 border-gray-500">
+            <p class="text-white text-sm mt-5 text-center">&copy; <span>2024</span> CarShop. Todos los derechos
+                reservados
+            </p>
+        </div>
+    </footer>
+    <script src="js/modelos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
